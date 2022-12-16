@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200&display=swap');
+
+* {
+  font-family: 'Unbounded';
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  gap: 2%
+}
+
+html, body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: #66a0e3;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.2rem;
+  font-style: normal;
+  margin-top: 4%;
+}
+
+span {
+  margin-bottom: 4%;
+}
+
+hr {
+  width: 100%;
+  border: 1px gray dashed;
+}
+.quiz, .quizScore {
+  width: 60%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.quizScore {
+  width: 50%;
+  height: 25%;
+  justify-content: center;
+  display: none;
+}
+
+.spanScore {
+  font-size: 2rem;
+  font-weight: 900;
+  color: green;
+}
+
+.response {
+  display: grid;
+  height: 50%;
+  justify-content: space-around;
+}
+
+.btn {
+  background-color: antiquewhite;
+  border-radius: 3px;
+  border: 1px solid black;
+  padding: 2px;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: gray;
+  cursor: pointer;
+}
